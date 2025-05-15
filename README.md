@@ -4,7 +4,7 @@
 
 **Overview**
 
-This project analyzes public donation data for Nick Brown’s 2024 Washington State Attorney General campaign, sourced from the Washington State Public Disclosure Commission (PDC). It includes full-cycle data analysis using:
+This project analyzes public donation data for Nick Brown's 2024 Washington State Attorney General campaign, sourced from the Washington State Public Disclosure Commission (PDC). It includes full-cycle data analysis using:
 
 * Python & pandas for data cleaning  
 * SQLite for structured querying  
@@ -14,7 +14,7 @@ The final dashboard visualizes donation trends, top donor cities, and post-prima
 
 **Tools Utilized**
 
-* Python (pandas, sqlite3)  
+* Python 
 * SQLite  
 * Tableau  
 * VS Code  
@@ -28,23 +28,30 @@ The final dashboard visualizes donation trends, top donor cities, and post-prima
 
 **Dashboard Preview**
 
+![Campaign Dashboard](tableau/dashboard.png)
+
 **Project Structure**
+
+```
+AG-campaign-analysis/
+├── data/
+│   ├── raw/                # Original data files (e.g., CSVs from PDC)
+│   └── processed/          # Cleaned data, database, and analysis outputs
+├── scripts/                # Python scripts for cleaning, loading, and querying data
+├── sql/                    # Pure SQL scripts for analysis
+├── tableau/                # Tableau workbook and dashboard images
+├── README.md               # Project documentation (this file)
+```
 
 **What I Learned**
 
 * Applied **Python (pandas)** to clean and transform real-world campaign finance data 
 * Structured and queried datasets using **SQL (SQLite)** to extract time-based trends and donor insights  
 * Built an interactive, insight-driven **Tableau dashboard** that visually communicates key campaign fundraising patterns  
-* Practiced **end-to-end analysis** — from raw CSV to visual story — showcasing the complete data analyst workflow  \
+* Practiced **end-to-end analysis** — from raw CSV to visual story — showcasing the complete data analyst workflow  
 
  **Data Source**
 
 All contribution data was publicly sourced from the [Washington State Public Disclosure Commission](https://www.pdc.wa.gov/).
 
-**View Dashboard**
-
-*The full dashboard is available on [Tableau Public](insert link here)*  
-
-To run the data scripts:
-python scripts/clean_data.py python scripts/load_to_sql.py python scripts/query_sql.py
 
