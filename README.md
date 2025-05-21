@@ -28,7 +28,7 @@ The final dashboard visualizes donation trends, top donor cities, and post-prima
 
 **Dashboard Preview**
 
-![Campaign Dashboard](tableau/dashboard.png)
+![Campaign Dashboard](tableau/NB_Dashboard.png)
 
 **Project Structure**
 
